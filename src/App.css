@@ -1,2 +1,142 @@
 .App {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.pokeCard {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 250px;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  margin: 16px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.pokeImage {
+  max-width: 250px;
+  max-height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pokeName {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.Normal {
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  color: black;
+}
+
+.Grass {
+  background-color: green;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  color: white;
+}
+
+.Poison {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding: 5px;
+  color: white;
+}
+
+.Fire {
+  background-color: Red;
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding: 5px;
+  color: white;
+}
+
+.Flying {
+  background-color: lightblue;
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding: 5px;
+  color: black;
+}
+
+.Water {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding: 5px;
+  color: white;
+}
+
+.Bug {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding: 5px;
+  color: white;
+}
+
+.Electric {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding: 5px;
+  color: black;
+}
+
+.Ground {
+  background-color: brown;
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding: 5px;
+  color: white;
+}
+
+.Fairy {
+  background-color: pink;
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding: 5px;
+  color: black;
 }
