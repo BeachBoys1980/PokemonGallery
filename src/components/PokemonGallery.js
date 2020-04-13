@@ -1,6 +1,6 @@
 import React from "react";
-import PokemonCard from "./components/PokemonGallery";
-import pokemonData from "./pokemon/pokemon";
+import PokemonCard from "./PokemonCard";
+import pokemonData from "../pokemon/pokemon";
 
 function PokemonGallery() {
   pokemonData.sort();
